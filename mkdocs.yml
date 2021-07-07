@@ -37,9 +37,9 @@ extra_css:
 # NAV PAGE TREE
 
 nav:
-  - 🏠: index.md
-  - 🧐: philosophy.md
-  - ⌨️: typography.md
+  - 🏠 Home: index.md
+  - 🧐 Philosophy: philosophy.md
+  - ⌨️ Typography: typography.md
 
 
 # ----------------------------------------------------------------
