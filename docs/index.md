@@ -2,9 +2,8 @@
 
 ---
 
-!!!
+!!! warning
     This site is currently being constructed, and has not reached a release. When this warning is removed, a version has been achieved.
-
 
 
 We all know the story. [John Gruber and Aaron Swartz makes Markdown](https://en.wikipedia.org/wiki/Markdown#History), and suddenly there's an itch scratched. A simple, readable format to text that is transferrable and can be rendered everywhere.
@@ -30,19 +29,19 @@ To start with, there is no compiler yet. The first part of this project is to la
 
 Hypermarkdown files stand on their own with formatting according to the Hypermarkdown spec. This means that every [Commonmark](https://commonmark.org) format will work, no matter what.
 
-> Axiom: The Commonmark specification is a complete subset within Hypermarkdown.
+### Axiom: The Commonmark specification is a complete subset within Hypermarkdown.
 
 Hypermarkdown styles can be fashioned in an accompanying file. This means that if `file.hmd` and `file.hcss` exist in the same path, the style is automatically applied.
 
-> Axiom: All Hypermarkdown files will automatically obey its accompanying .hcss file for style.
+### Axiom: All Hypermarkdown files will automatically obey its accompanying .hcss file for style.
 
 Secondarily, within any path, a special name of hyperstyle.hcss will apply its rules second, but are available to all files in that path.
 
-> Axiom: All Hypermarkdown files will automatically obey `hyperstyle.hcss` in its path, secondarily.
+### Axiom: All Hypermarkdown files will automatically obey `hyperstyle.hcss` in its path, secondarily.
 
 If a `hyperstyle.hcss` is not found, rendering will go up one level and check until it runs out of levels, or finds a `hyperstyle.hcss` file. 
 
-> Axiom: Rendering will attempt to find `hyperstyle.hcss` in higher paths unless told not to look.
+### Axiom: Rendering will attempt to find `hyperstyle.hcss` in higher paths unless told not to look.
 
 All `.hcss` file content must start with:
 
