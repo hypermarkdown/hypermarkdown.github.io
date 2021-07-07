@@ -37,8 +37,8 @@ extra_css:
 # NAV PAGE TREE
 
 nav:
-  - Welcome: index.md
-  
+  - 🏠: index.md
+  - 🧐: philosophy.md
 
 
 # ----------------------------------------------------------------
