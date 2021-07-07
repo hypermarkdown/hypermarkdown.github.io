@@ -22,7 +22,7 @@ theme:
     #accent: black
 
   font:
-    text: Work Sans
+    text: Heebo
     code: Fira Code
   #favicon: assets/favicon.png
   #icon:
