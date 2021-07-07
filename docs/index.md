@@ -29,19 +29,23 @@ To start with, there is no compiler yet. The first part of this project is to la
 
 Hypermarkdown files stand on their own with formatting according to the Hypermarkdown spec. This means that every [Commonmark](https://commonmark.org) format will work, no matter what.
 
-### Axiom: The Commonmark specification is a complete subset within Hypermarkdown.
+!!! Info
+    Axiom: The Commonmark specification is a complete subset within Hypermarkdown.
 
 Hypermarkdown styles can be fashioned in an accompanying file. This means that if `file.hmd` and `file.hcss` exist in the same path, the style is automatically applied.
 
-### Axiom: All Hypermarkdown files will automatically obey its accompanying .hcss file for style.
+!!! Info
+    Axiom: All Hypermarkdown files will automatically obey its accompanying .hcss file for style.
 
 Secondarily, within any path, a special name of hyperstyle.hcss will apply its rules second, but are available to all files in that path.
 
-### Axiom: All Hypermarkdown files will automatically obey `hyperstyle.hcss` in its path, secondarily.
+!!! Info
+    Axiom: All Hypermarkdown files will automatically obey `hyperstyle.hcss` in its path, secondarily.
 
 If a `hyperstyle.hcss` is not found, rendering will go up one level and check until it runs out of levels, or finds a `hyperstyle.hcss` file. 
 
-### Axiom: Rendering will attempt to find `hyperstyle.hcss` in higher paths unless told not to look.
+!!! Info
+    Axiom: Rendering will attempt to find `hyperstyle.hcss` in higher paths unless told not to look.
 
 All `.hcss` file content must start with:
 
@@ -54,7 +58,7 @@ or
 Use hyperstyle = "yes"
 ```
 
-And the default should be `"no"`
+And the default will be `"no"`
 
 
 _And that's it for files._
