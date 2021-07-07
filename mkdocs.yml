@@ -22,8 +22,8 @@ theme:
     #accent: black
 
   font:
-    text: Public Sans
-    code: Roboto Mono
+    text: Quicksand
+    code: Fira Code
   #favicon: assets/favicon.png
   #icon:
     #logo: logo
