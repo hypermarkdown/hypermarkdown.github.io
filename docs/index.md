@@ -3,7 +3,7 @@
 ---
 
 !!! warning
-    This site is currently being constructed, and has not reached a release. When this warning is removed, a version has been achieved.
+    This site is currently being constructed, and has not reached a release. When this warning is removed, a version has been achieved. I'm taking a good, hard look at this, because there are some things that might be "enough", and that they just need codified.
 
 
 We all know the story. [John Gruber and Aaron Swartz makes Markdown](https://en.wikipedia.org/wiki/Markdown#History), and suddenly there's an itch scratched. A simple, readable format to text that is transferrable and can be rendered everywhere.
